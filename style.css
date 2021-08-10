@@ -57,7 +57,7 @@ body{
 .time-list, .list-number, .difference-time-list{
    width: 195px;
    height: 40px;
-   font-size: 20px;
+   font-size: 24px;
    line-height: 40px;
    text-align: center;
    margin: 0;
@@ -82,4 +82,141 @@ body{
 
 .odd .time-list, .odd .list-number, .odd .difference-time-list{
    background-color: rgb(241, 241, 241);
+}
+
+@media only screen and (min-width: 320px){
+   .input-button{
+      width: 60px;
+      height: 60px;
+      font-size: 20px;
+      border: 1px black dashed;
+      border-radius: 50%;
+   }
+
+   .time{ 
+      margin: 15px 15px;
+      font-size: 22px;
+   }
+
+   .container{
+      width: 280px;
+      min-height: 70px;
+      max-height: 240px;
+      padding: 7px 7px;
+   }
+
+   .time-list, .list-number, .difference-time-list{
+      width: 127px;
+      height: 24px;
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .list-number{ 
+      width: 35px;
+      padding-right: 7px;
+   }
+}
+
+@media only screen and (min-width: 411px){
+   .input-button{
+      width: 70px;
+      height: 70px;
+      font-size: 20px;
+      border: 2px black dashed;
+      border-radius: 50%;
+   }
+
+   .time{ 
+      margin: 15px 15px;
+      font-size: 25px;
+   }
+
+   .container{
+      width: 300px;
+      min-height: 70px;
+      max-height: 240px;
+      padding: 7px 7px;
+   }
+
+   .time-list, .list-number, .difference-time-list{
+      width: 127px;
+      height: 30px;
+      font-size: 16px;
+      line-height: 30px;
+   }
+
+   .list-number{ 
+      width: 35px;
+      padding-right: 7px;
+   }
+}
+  
+
+@media only screen and (min-width: 768px){
+   .input-button{
+      width: 100px;
+      height: 100px;
+      font-size: 32px;
+      border: 2px black dashed;
+      border-radius: 50%;
+   }
+
+   .time{ 
+      margin: 15px 15px;
+      font-size: 35px;
+   }
+
+   .container{
+      width: 500px;
+      min-height: 70px;
+      max-height: 400px;
+      padding: 7px 7px;
+   }
+
+   .time-list, .list-number, .difference-time-list{
+      width: 230px;
+      height: 30px;
+      font-size: 17px;
+      line-height: 30px;
+   }
+
+   .list-number{ 
+      width: 40px;
+      padding-right: 7px;
+   }
+}
+
+@media only screen and (min-width: 1024px){
+   .input-button{
+      width: 120px;
+      height: 120px;
+      font-size: 36px;
+      border: 2px black dashed;
+      border-radius: 50%;
+   }
+
+   .time{ 
+      margin: 15px 15px;
+      font-size: 40px;
+   }
+
+   .container{
+      width: 700px;
+      min-height: 70px;
+      max-height: 400px;
+      padding: 7px 7px;
+   }
+
+   .time-list, .list-number, .difference-time-list{
+      width: 320px;
+      height: 40px;
+      font-size: 24px;
+      line-height: 40px;
+   }
+
+   .list-number{ 
+      width: 60px;
+      padding-right: 7px;
+   }
 }
