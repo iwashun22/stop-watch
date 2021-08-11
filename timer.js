@@ -141,6 +141,8 @@ function lap(){
    lapTimeArea.appendChild(makeNewList);
    countNumber++;
    currentLapTime = timeNow;
+
+   scrollDown();
 }
 
 let countNumber = 1;
@@ -164,4 +166,9 @@ function timeToString(num){
    theString = `${stringH} : ${stringM} : ${stringS}`;
 
    return theString;
+}
+
+function scrollDown(){
+   const bottom = lapTimeArea.scrollHeight - lapTimeArea.clientHeight;
+   lapTimeArea.scrollTo({top: bottom, left: 0, behavior: 'smooth'});
 }
