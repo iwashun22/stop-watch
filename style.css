@@ -54,6 +54,11 @@ body{
    display: flex;
 }
 
+.list:last-child .list-number{
+   color: red;
+   font-weight: 600;
+}
+
 .time-list, .list-number, .difference-time-list{
    width: 195px;
    height: 40px;
